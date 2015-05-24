@@ -22,10 +22,10 @@ Build an application to demonstrate following skill :
 
 ## Introducing the Measurement Convertor! 
 <br>
-<h3> Speaking to an American? 
+<h3>Speaking to an American? </h3>
 <br> This app calculates your measurement from centimetres to inches and from kilograms to pounds based on your inputs.   
 <br><br>
-Quick facts: <br>
+h3(Quick facts:) <br>
 1 kilogram roughly equals to 2.2 pounds <br>
 1 centimetre roughly equals to 0.39 inch <br>
 --- .class #id 
