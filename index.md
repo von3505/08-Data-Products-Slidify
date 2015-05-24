@@ -1,5 +1,5 @@
 ---
-title       : Measurement_Convertor
+title       : Measurement Convertor
 subtitle    : Coursera Developing Data Products
 author      : Von
 job         : 
@@ -66,7 +66,7 @@ This Measurement Convertor includes 4 widgets:<br>
 
 ## Application - Link and Code
 <br>
-Try out the application on the RStudio shinyapps.io website: placeholder
+Try out the application on the RStudio shinyapps.io website: https://von3505.shinyapps.io/Measurement_Convertor_App/
 <br>
 
 To see the code for the application, visit github website: https://github.com/von3505/08-Data-Products/tree/master/Measurement_Convertor_App
