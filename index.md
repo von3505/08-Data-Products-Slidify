@@ -18,7 +18,8 @@ Build an application to demonstrate following skill :
 1. use of various widgets of 'shiny' tool <br>
 2. understanding of the process of publishing application in shiny <br>
 3. interface with R using embeded R code <br>
---- 
+  
+--- .class #id 
 
 ## Introducing the Measurement Convertor! 
 <br>
@@ -29,7 +30,7 @@ Build an application to demonstrate following skill :
 1. 1 centimetre roughly equals to 0.39 inch <br>
 2. 1 kilogram roughly equals to 2.2 pounds <br>
 
---- 
+--- .class #id 
 
 ## Code
 
@@ -61,7 +62,7 @@ This Measurement Convertor includes 4 widgets:<br>
 <b>actionButton</b> - The 'Convert Now' button' provides non-reactive reactivity to refresh and convert the given values <br>
 <b>Textfield</b> - User inputs are displayed on the right column <br>
 <b>TabPanel</b> - A separate documentation tab provides further information about this app <br>
---- 
+--- .class #id 
 
 ## Application - Link and Code
 <br>
@@ -74,4 +75,4 @@ To see the code for the application, visit github website: https://github.com/vo
 server.R <br>
 ui.R <br>
 To execute the application and see the code in action, use: runApp(displayMode = 'showcase')
---- 
+--- .class #id 
