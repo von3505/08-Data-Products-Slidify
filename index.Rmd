@@ -1,7 +1,7 @@
 ---
-title       : 
-subtitle    : 
-author      : 
+title       : Measurement_Convertor
+subtitle    : Coursera Developing Data Products
+author      : Von
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -11,16 +11,40 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Objective
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+Build an application to demonstrate following skill :
 
+??? use of various widgets of 'shiny' tool 
+??? understanding of the process of publishing application in shiny 
+??? interface with R using embeded R code 
 --- .class #id 
 
-## Slide 2
+## Introducing the Measurement Convertor! 
+Speaking to an American? This app calculates your measurement from centimetres to inches and from kilograms to pounds based on your inputs.   
+
+Quick facts:
+1 kilogram roughly equals to 2.2 pounds
+1 centimetre roughly equals to 0.39 inch
+--- .class #id 
 
 
+## User Interface : Application - Widgets
 
+This Measurement Convertor includes 4 widgets:
+numericInput - A field to enter numbers for a value in centimetres and another in kilograms
+actionButton - The 'Convert Now' button' provides non-reactive reactivity to refresh and convert the given values
+Textfield - User inputs are displayed on the right column
+TabPanel - A separate documentation tab provides further information about this app
+--- .class #id 
 
+## Application - Link and Code
+
+Try out the application on the RStudio shinyapps.io website: placeholder
+
+To see the code for the application, visit github website: https://github.com/von3505/08-Data-Products/tree/master/Measurement_Convertor_App
+Useful files in repo:
+server.R
+ui.R
+To execute the application and see the code in action, use: runApp(displayMode = 'showcase')
+--- .class #id 
