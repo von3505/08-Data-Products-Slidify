@@ -50,9 +50,9 @@
 Build an application to demonstrate following skill :
 <br>
 1. use of various widgets of &#39;shiny&#39; tool <br>
-2. understanding of the process of publishing application in shiny <br>
-3. interface with R using embeded R code <br>
---- .class #id </p>
+2. understanding of the process of publishing application in shiny <br></p>
+
+<h2>3. interface with R using embeded R code <br></h2>
 
 <h2>Introducing the Measurement Convertor!</h2>
 
@@ -63,13 +63,19 @@ Build an application to demonstrate following skill :
 <p><br> This app calculates your measurement from centimetres to inches and from kilograms to pounds based on your inputs.<br>
 <br><br>
 <h3>Quick facts:</h3> <br>
-1 kilogram roughly equals to 2.2 pounds <br>
-1 centimetre roughly equals to 0.39 inch <br>
---- .class #id </p>
+1. 1 centimetre roughly equals to 0.39 inch <br>
+2. 1 kilogram roughly equals to 2.2 pounds <br></p>
 
-<h2>Code</h2>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<pre><code class="r">in_cm &lt;- 1000
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Code</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">in_cm &lt;- 1000
 in_inches &lt;- in_cm * 0.39
 print(in_inches)
 </code></pre>
@@ -85,7 +91,7 @@ print(in_pounds)
 <pre><code>## [1] 2200
 </code></pre>
 
-<p>--- .class #id </p>
+<hr>
 
 <h2>User Interface : Application - Widgets</h2>
 
@@ -93,9 +99,9 @@ print(in_pounds)
 This Measurement Convertor includes 4 widgets:<br>
 <b>numericInput</b> - A field to enter numbers for a value in centimetres and another in kilograms <br>
 <b>actionButton</b> - The &#39;Convert Now&#39; button&#39; provides non-reactive reactivity to refresh and convert the given values <br>
-<b>Textfield</b> - User inputs are displayed on the right column <br>
-<b>TabPanel</b> - A separate documentation tab provides further information about this app <br>
---- .class #id </p>
+<b>Textfield</b> - User inputs are displayed on the right column <br></p>
+
+<h2><b>TabPanel</b> - A separate documentation tab provides further information about this app <br></h2>
 
 <h2>Application - Link and Code</h2>
 
@@ -107,9 +113,9 @@ Try out the application on the RStudio shinyapps.io website: placeholder
 <br>
 <b>Useful files in repo:</b> <br>
 server.R <br>
-ui.R <br>
-To execute the application and see the code in action, use: runApp(displayMode = &#39;showcase&#39;)
---- .class #id </p>
+ui.R <br></p>
+
+<h2>To execute the application and see the code in action, use: runApp(displayMode = &#39;showcase&#39;)</h2>
 
   </article>
   <!-- Presenter Notes -->
@@ -123,6 +129,12 @@ To execute the application and see the code in action, use: runApp(displayMode =
       <a href="#" target="_self" rel='tooltip' 
         data-slide=1 title='Objective'>
          1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Code'>
+         2
       </a>
     </li>
   </ul>
